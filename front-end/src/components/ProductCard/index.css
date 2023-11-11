@@ -1,0 +1,49 @@
+.product-item-container {
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+}
+
+.product-item {
+  list-style-type: none;
+  flex-grow: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .title-heading {
+    font-size: 20px;
+  }
+}
+
+.code {
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 500;
+  padding: 10px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.title-heading {
+  font-size: 26px;
+  margin: 5px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.input-style {
+  width: 45px;
+  height: 15px;
+  margin-top: 35px;
+}
+
+.form-container {
+  margin-top: 5px;
+}
+
+.price {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  padding: 15px;
+  margin: 15px;
+}
